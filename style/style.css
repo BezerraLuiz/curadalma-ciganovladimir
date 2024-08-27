@@ -208,7 +208,7 @@ body {
 }
 
 .first-arrow {
-  position: fixed;
+  position: absolute;
   width: 50px;
   height: 54px;
   right: 0;
@@ -216,7 +216,6 @@ body {
   transform: rotate(90deg);
   margin: 10px;
   z-index: 2; /* Garante que o texto esteja acima da sobreposição */
-  filter: opacity(0.4);
 }
 
 .first-board {
@@ -394,6 +393,18 @@ footer {
 /* Responsividade */
 /* Responsividade para telas menores que 480px */
 @media (min-width: 1025px) and (max-width: 1440px) {
+  .first-arrow {
+    position: fixed;
+    width: 50px;
+    height: 54px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    margin: 10px;
+    z-index: 2; /* Garante que o texto esteja acima da sobreposição */
+    filter: opacity(0.4);
+  }
+
   #section-logo {
     flex-direction: column;
     width: 100%;
@@ -567,6 +578,18 @@ footer {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .first-arrow {
+    position: fixed;
+    width: 50px;
+    height: 54px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    margin: 10px;
+    z-index: 2; /* Garante que o texto esteja acima da sobreposição */
+    filter: opacity(0.4);
+  }
+
   #section-logo {
     flex-direction: column;
     width: 100%;
@@ -742,6 +765,18 @@ footer {
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
+  .first-arrow {
+    position: fixed;
+    width: 50px;
+    height: 54px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    margin: 10px;
+    z-index: 2; /* Garante que o texto esteja acima da sobreposição */
+    filter: opacity(0.4);
+  }
+
   #section-logo {
     flex-direction: column;
     width: 100%;
@@ -909,6 +944,18 @@ footer {
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
+  .first-arrow {
+    position: fixed;
+    width: 50px;
+    height: 54px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    margin: 10px;
+    z-index: 2; /* Garante que o texto esteja acima da sobreposição */
+    filter: opacity(0.4);
+  }
+
   #section-logo {
     flex-direction: column;
     width: 100%;
@@ -1078,6 +1125,18 @@ footer {
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
+  .first-arrow {
+    position: fixed;
+    width: 50px;
+    height: 54px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    margin: 10px;
+    z-index: 2; /* Garante que o texto esteja acima da sobreposição */
+    filter: opacity(0.4);
+  }
+
   #section-logo {
     flex-direction: column;
     width: 100%;
@@ -1247,6 +1306,18 @@ footer {
 }
 
 @media (max-width: 320px) {
+  .first-arrow {
+    position: fixed;
+    width: 50px;
+    height: 54px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    margin: 10px;
+    z-index: 2; /* Garante que o texto esteja acima da sobreposição */
+    filter: opacity(0.4);
+  }
+
   #section-logo {
     flex-direction: column;
     width: 100%;
