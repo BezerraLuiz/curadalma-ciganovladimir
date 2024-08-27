@@ -1484,7 +1484,7 @@ footer {
     font-size: 15px;
   }
 
-  /* CSS para animação de entrada */
+  /* CSS para animação de entrada. */
   @keyframes slideIn {
     from {
       opacity: 0;
